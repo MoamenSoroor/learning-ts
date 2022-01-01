@@ -61,3 +61,4 @@ function PrintNewPerson2(person) {
         }
     }
 }
+//# sourceMappingURL=propertyModifier.js.map

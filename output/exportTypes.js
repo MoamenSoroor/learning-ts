@@ -12,3 +12,4 @@ var Customer = /** @class */ (function () {
     return Customer;
 }());
 exports.Customer = Customer;
+//# sourceMappingURL=exportTypes.js.map

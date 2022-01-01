@@ -317,8 +317,8 @@ function padLeft(padding, input) {
 }
 console.log(padLeft(10, "moamen"));
 console.log(padLeft("hello world ", "moamen"));
-var bear = { Name: "B", IsBear: true };
-console.log(bear);
+var bear11 = { Name: "B", IsBear: true };
+console.log(bear11);
 var std = { Name: "student", Age: 33 };
 console.log(std);
 console.log(window.title);
@@ -380,3 +380,17 @@ function GetAreaWithNever(shape) {
             return exaustiveCheck;
     }
 }
+// Unkown
+// -------------------------
+// [..] unknown which is the type-safe counterpart of any. Anything is
+// assignable to unknown, but unknown isn't assignable to anything but
+// itself and any without a type assertion or a control flow based
+// narrowing. Likewise, no operations are permitted on an unknown without
+// first asserting or narrowing to a more specific type.
+var vAny = 10; // We can assign anything to any
+var vUnknown = 10; // We can assign anything to unknown just like any 
+var s1 = vAny; // Any is assignable to anything 
+//let s2: string = vUnknown; // Invalid; we can't assign vUnknown to any other type (without an explicit assertion)
+vAny.method(); // Ok; anything goes with any
+//vUnknown.method(); // Not ok; we don't know anything about this variable
+//# sourceMappingURL=types.js.map

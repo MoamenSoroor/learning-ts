@@ -4,3 +4,4 @@ var exportTypes_1 = require("./exportTypes");
 var cust = new exportTypes_1.Customer(1, "moamen");
 var info = cust.GetInfo();
 console.log(info);
+//# sourceMappingURL=importTypes.js.map

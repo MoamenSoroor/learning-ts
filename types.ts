@@ -522,12 +522,12 @@ console.log(padLeft("hello world ", "moamen"));
 
 // diff between interface and type aliases
 
-interface Animal { Name: string; }
-interface Bear extends Animal { IsBear: true; }
+interface Animal1 { Name: string; }
+interface Bear1 extends Animal1 { IsBear: true; }
 
-const bear: Bear = { Name: "B", IsBear: true }
+const bear11: Bear1 = { Name: "B", IsBear: true }
 
-console.log(bear);
+console.log(bear11);
 
 
 type Person = { Name: string; }

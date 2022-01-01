@@ -108,3 +108,4 @@ var fnvoid1 = function () { return true; };
 var fnvoid2 = function () { return false; };
 var fnvoid3 = function () { return false; };
 var v = fnvoid1();
+//# sourceMappingURL=functionType.js.map

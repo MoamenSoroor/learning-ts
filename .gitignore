@@ -1,0 +1,8 @@
+node_modules/
+output/
+output/classes.js
+output/exportTypes.js
+output/functionType.js
+output/importTypes.js
+output/propertyModifier.js
+output/types.js
